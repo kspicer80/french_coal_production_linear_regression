@@ -15,7 +15,7 @@ y = df['metric_tons']
 print(y[0:5])
 
 plt.plot(X, y, color='cyan', marker='o')
-plt.title("French Coal Production 1915-1939")
+plt.title("French Coal Production 1915-1938")
 plt.xlabel("Year")
 plt.ylabel("Coal Production in Metric Tons")
 
